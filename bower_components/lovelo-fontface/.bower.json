@@ -1,0 +1,39 @@
+{
+  "name": "lovelo-fontface",
+  "version": "1.0.0",
+  "authors": [
+    "Lorenz Brun <lorenz@dolansoft.org>"
+  ],
+  "main": "css/lovelo-fontface.css",
+  "keywords": [
+    "font",
+    "lovelo",
+    "fontface",
+    "less",
+    "css"
+  ],
+  "license": "MIT",
+  "description": "A bower package for the Lovelo font",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lorenz/lovelo-fontface"
+  },
+  "homepage": "http://www.fontfabric.com/lovelo-font/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "a2ec2682e7e2a6f738a962b8c3cab168fcd5ead0"
+  },
+  "_source": "https://github.com/lorenz/lovelo-fontface.git",
+  "_target": "^1.0.0",
+  "_originalSource": "lovelo-fontface",
+  "_direct": true
+}

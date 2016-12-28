@@ -1,0 +1,13 @@
+{
+  "name": "MemeGenerator",
+  "authors": [
+    "carolinass <carolzinhacabral@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "",
+  "homepage": "",
+  "dependencies": {
+    "lovelo-fontface": "^1.0.0"
+  }
+}

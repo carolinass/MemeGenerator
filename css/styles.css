@@ -1,0 +1,51 @@
+.body {
+	height: 100%;
+}
+
+.container-fluid {
+	padding: 0px;
+	height: 100%;
+}
+
+.header {
+	padding: 20px 0;
+	background-color: #1EC6CD;
+	font-weight: normal;
+	text-align: center;
+}
+
+.title {
+	color: white;
+	text-transform: uppercase;
+	font-family: "Lovelo Line", sans-serif;
+	font-weight: bold;
+	font-size: 5em;
+}
+
+.title-line {
+	border-color: #080002;
+	width: 500px;
+	border-width: 2px;
+}
+
+.subtitle {
+	font-family: "Josefin Slab", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.canvas-section {
+	background-color: #FF414D;
+	width: 70%;
+	height: 100%;
+}
+
+.settings {
+	color: #FC4B4E;
+	padding: 30px;
+	background-color: #F7EFDA;
+	width: 30%;
+	height: 100%;
+	font-family: "Josefin Slab", sans-serif;
+	font-weight: bold;
+}
