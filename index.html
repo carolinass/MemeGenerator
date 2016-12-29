@@ -12,6 +12,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+		<script src="js/memeGenerator.js"></script>
 	</head>
 	<body>
 		<article class="container-fluid">
@@ -23,23 +24,23 @@
 
 			<section style="display: flex">
 				<div class="canvas-section">
-					<canvas></canvas>
+					<div class="canvas-wrapper">
+						<canvas id="bkImage" width="100%" height="100%"></canvas>
+						<canvas id="canvas" width="100%" height="100%"></canvas>
+					</div>
 				</div>
 				<div class="settings">
-					<form action="">
-						<div class="form-group">
-							<button class="btn btn-secondary float-xs-right">Upload Image</button>
-						</div>
-						<br>
-						<br>
-						<br>
-						<div class="form-group">
-							<label for="top-text">Top Text</label>
-							<input id="top-text" style="float: right" name="top-text" type="text">
+					<form action="javascript:void(0);">
+						<div class="form-group min-height-50">
+							<button id="loadBtn" class="btn btn-secondary float-xs-right"> Upload Image</button>
 						</div>
 						<div class="form-group">
-							<label for="bottom-text">Bottom Text</label>
-							<input id="bottom-text" name="bottom-text" type="text" style="float: right">
+							<label for="top-text"> Top Text </label>
+							<input id="top-text" name="top-text" type="text" class="float-right">
+						</div>
+						<div class="form-group">
+							<label for="bottom-text"> Bottom Text </label>
+							<input id="bottom-text" name="bottom-text" type="text" class="float-right">
 						</div>
 					</form>
 				</div>
